@@ -21,7 +21,7 @@ const Settings = () => {
   const handleSaveProfile = () => {
     setIsSaving(true);
     
-    // Simulate saving data
+    // Simulate a save operation
     setTimeout(() => {
       setIsSaving(false);
       toast({
