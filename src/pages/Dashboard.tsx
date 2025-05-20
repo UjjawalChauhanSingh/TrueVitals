@@ -15,7 +15,7 @@ const Dashboard = () => {
   const { history } = useVitalSignsStore();
   const navigate = useNavigate();
   
-  // Get latest measurement from history if available
+
   const latestMeasurement = history.length > 0 ? history[0] : null;
   
   return (

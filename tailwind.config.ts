@@ -63,7 +63,8 @@ export default {
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
 				},
-				// Add new soft pastel color palette for vitals
+				// Custom colors
+				// These colors are used in the app
 				vital: {
 					spo2: "#4CC9F0",       // Soft blue for SpO2
 					heartRate: "#F72585",   // Soft pink for heart rate
